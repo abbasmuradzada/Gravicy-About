@@ -1,0 +1,369 @@
+header {
+  background-image: url(../images/Background.png);
+  padding: 45px 75px 173px 75px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 98px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+header div {
+  width: 100%;
+  height: 20px;
+}
+
+header > div > nav {
+  width: 100%;
+  float: right;
+  text-align: right;
+}
+
+header > div > nav h3 {
+  float: left;
+  font-size: 24px;
+  line-height: 28px;
+  color: #04A2FD;
+}
+
+header > div > nav > ul > li {
+  display: inline-block;
+  text-align: right;
+  margin-left: 40px;
+}
+
+header > div > nav > ul > li:last-child {
+  margin-left: 22px;
+}
+
+header > div > nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+header > h1 {
+  font-size: 60px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  margin-top: 163px;
+  font-family: Lato-Bold;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+#workflow-section {
+  width: 1100px;
+  margin: auto;
+  margin-bottom: 96px;
+}
+
+#left-workflow {
+  width: 50%;
+  float: left;
+  padding-right: 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#left-workflow img {
+  width: 100%;
+}
+
+#right-workflow {
+  width: 50%;
+  float: right;
+  padding: 137px 30px 0px 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.workflow-title {
+  margin-bottom: 26px;
+}
+
+.workflow-desc {
+  margin-bottom: 27px;
+}
+
+.work-pricing {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1D2A3B;
+}
+
+.work-pricing i {
+  color: #00AEEF;
+}
+
+#member-contanier {
+  clear: both;
+  width: 1087px;
+  height: 460px;
+  margin: auto;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 105px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#member-contanier > h1 {
+  font-size: 46px;
+  line-height: 40px;
+  color: #1D2A3B;
+  margin-bottom: 50px;
+}
+
+#sign-up-section {
+  width: 1087px;
+  height: 210px;
+  margin: auto;
+  padding: 52px 50px 61px 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 8px 20px;
+          box-shadow: 0px 8px 20px;
+  margin-bottom: 67px;
+  clear: both;
+}
+
+#left-sign-up {
+  height: 100%;
+  width: 340px;
+  float: left;
+}
+
+#sign-up-section > #left-sign-up > p:first-child {
+  font-size: 30px;
+  line-height: 40px;
+  color: #1D2A3B;
+  margin-bottom: 13px;
+}
+
+#input-style {
+  position: relative;
+}
+
+#input-style > input {
+  float: right;
+  margin-top: 18px;
+  width: 590px;
+  height: 70px;
+  outline: none;
+  font-size: 15px;
+  line-height: 50px;
+  padding: 0px 130px 0px 31px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+#input-style > input ::-webkit-input-placeholder {
+  color: #747E8C;
+}
+
+#input-style > input :-ms-input-placeholder {
+  color: #747E8C;
+}
+
+#input-style > input ::-ms-input-placeholder {
+  color: #747E8C;
+}
+
+#input-style > input ::placeholder {
+  color: #747E8C;
+}
+
+#input-style > button {
+  position: absolute;
+  top: 28px;
+  right: 10px;
+}
+
+footer {
+  width: 1087px;
+  background-color: orange;
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+footer > ul {
+  float: right;
+}
+
+footer > ul > li {
+  float: left;
+  margin-right: 109px;
+}
+
+footer > ul > li:last-child {
+  margin-right: 0px;
+}
+
+.footer-colums {
+  color: #5B5F72;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.footer-colums p {
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.footer-colums p:first-child {
+  line-height: 80px;
+  font-size: 16px;
+}
+
+footer > div {
+  float: left;
+}
+
+footer > div > ul > li > a {
+  font-size: 16px;
+  line-height: 28px;
+  color: #19224C;
+  text-decoration: none;
+}
+
+footer > div > ul > li > p {
+  font-size: 24px;
+  color: #19224C;
+  margin-bottom: 30px;
+}
+
+.hiring-section {
+  width: 1087px;
+  margin: auto;
+  clear: both;
+  margin-bottom: 121px;
+}
+
+#hiring-details {
+  width: 100%;
+}
+
+#hiring-details div {
+  width: 100%;
+}
+
+#hiring-title {
+  margin-bottom: 24px;
+}
+
+#hiring-desc {
+  margin-bottom: 32px;
+}
+
+.hiring-content-1 {
+  float: left;
+  width: 50%;
+}
+
+.hiring-content-2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 69px 0px 0px 50px;
+}
+
+#goal-section-100 {
+  width: 100%;
+  height: 740px;
+  clear: both;
+  background-image: url(../images/back2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 740px;
+  margin-bottom: 94px;
+}
+
+#goal-section {
+  width: 1087px;
+  margin: auto;
+  padding-top: 198px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#goal-section div {
+  width: 50%;
+  float: left;
+}
+
+#goal-section div div {
+  width: 100%;
+}
+
+#goal-details {
+  padding-top: 58px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.goal-image > img {
+  width: 100%;
+}
+
+#goal-title {
+  margin-bottom: 35px;
+}
+
+#goal-desc {
+  padding-right: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 18px;
+}
+
+#goal-desc p > span {
+  color: #00AEEF;
+}
+
+#contact-icon {
+  font-size: 16px;
+  line-height: 25px;
+  color: #1D2A3B;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+#contact-icon i {
+  color: #00AEEF;
+  margin-left: 5px;
+}
+
+.workflow-speed {
+  width: 760px;
+  height: 400px;
+  margin: auto;
+  background-image: url(../images/back3.png);
+  background-size: 100%;
+  text-align: center;
+}
+
+#speed-title {
+  padding: 0px 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 26px;
+}
+
+#speed-desc {
+  padding: 0px 70px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 65px;
+}
+
+#speed-percentage {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,123 @@
+.fl-l {
+  float: left;
+}
+
+.clear-b {
+  clear: both;
+}
+
+.personal-card {
+  float: left;
+  text-align: center;
+  margin-right: calc((100% - 800px)/3);
+}
+
+.personal-card:nth-child(5) {
+  margin-right: 0px;
+}
+
+.personal-card > p {
+  line-height: 24px;
+  font-size: 20px;
+  color: #222;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.personal-card > img {
+  margin-bottom: 25px;
+}
+
+.personal-card > p:nth-child(3) {
+  font-size: 15px;
+  color: #00aeef;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.personal-card > a {
+  width: 40px;
+  height: 40px;
+  background-color: #f74d91;
+  float: left;
+  border-radius: 50px;
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.personal-card > a:nth-child(4) {
+  margin-left: 25px;
+  background-color: #29bfe8;
+}
+
+.personal-card > a:nth-child(5) {
+  background-color: #3973e8;
+}
+
+.text-type-1 {
+  font-size: 46px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #252525;
+  line-height: 46px;
+}
+
+.text-type-2 {
+  font-size: 17px;
+  line-height: 28px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #747E8C;
+}
+
+.text-type-3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #1D2A3B;
+}
+
+.button-style {
+  padding: 15px 30px;
+  border-radius: 2px;
+  background-color: #00AEEF;
+  color: white;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.goal-margin {
+  margin-top: 15px;
+}
+
+.percent-design {
+  float: left;
+  width: calc((100% - 2px) / 3);
+  border-right: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.percent-design:nth-child(3) {
+  border-right: none;
+}
+
+.percent-design h1 {
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #545CF5;
+}
+
+.percent-design p {
+  font-size: 15px;
+  line-height: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+/*# sourceMappingURL=common.css.map */
